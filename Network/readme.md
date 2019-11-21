@@ -184,3 +184,6 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
+# tracert
+```
+![ICMP tracert](tracert.gif)
