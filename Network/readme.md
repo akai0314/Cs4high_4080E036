@@ -159,6 +159,10 @@ tracert www.pchome.com.tw
   5     *        *        *     要求等候逾時。
   6     *        *        *     要求等候逾時。
   7     *        *        *     要求等候逾時。
+  
+  # tracert
+
+![ICMP tracert](tracert.gif)
 ```
 ### TCP vs UDP 
 ```
@@ -184,6 +188,3 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
-# tracert
-
-![ICMP tracert](tracert.gif)
