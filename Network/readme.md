@@ -315,6 +315,7 @@ tracert www.google.com.tw
 
 追蹤完成。
 ```
+![ICMP tracert](tracert.gif)
 ```
 tracert www.ksu.edu.tw
 
