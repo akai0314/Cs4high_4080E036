@@ -199,9 +199,8 @@ tracert www.ksu.edu.tw
 
 追蹤完成。
 ```
-![ICMP tracert ksu](tracert ksu.gif)
+![ICMP tracert](tracert ksu.gif)
 
-```
 ### TCP vs UDP 
 ```
 TCP vs UDP Comparison
