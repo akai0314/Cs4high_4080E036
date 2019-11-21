@@ -147,19 +147,46 @@ tracert| Traceroute
 https://support.microsoft.com/zh-tw/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows
 ```
 ```
-tracert www.pchome.com.tw
+tracert www.google.com.tw
 
-在上限 30 個躍點上 Tracing route to 11.1.0.1 over a maximum of 30 hops
-追蹤 www.pchome.com.tw [210.59.230.39] 的路由:
+在上限 30 個躍點上
+追蹤 www.google.com.tw [172.217.27.131] 的路由:
 
   1    <1 ms    <1 ms    <1 ms  172.20.155.254
-  2    10 ms     5 ms     6 ms  172.16.190.253
-  3    <1 ms    13 ms     1 ms  120-114-151-14.ksu.edu.tw [120.114.151.14]
+  2    <1 ms    <1 ms    <1 ms  172.16.190.253
+  3     2 ms     2 ms     4 ms  120-114-151-14.ksu.edu.tw [120.114.151.14]
   4     *        *        *     要求等候逾時。
   5     *        *        *     要求等候逾時。
   6     *        *        *     要求等候逾時。
   7     *        *        *     要求等候逾時。
-  
+  8     *        *        *     要求等候逾時。
+  9     *        *        *     要求等候逾時。
+ 10     *        *        *     要求等候逾時。
+ 11     *        *        *     要求等候逾時。
+ 12     *        *        *     要求等候逾時。
+ 13     *        *        *     要求等候逾時。
+ 14     *        *        *     要求等候逾時。
+ 15     *        *        *     要求等候逾時。
+ 16     *        *        *     要求等候逾時。
+ 17     *        *        *     要求等候逾時。
+ 18     *        *        *     要求等候逾時。
+ 19     *        *        *     要求等候逾時。
+ 20     *        *        *     要求等候逾時。
+ 21     *        *        *     要求等候逾時。
+ 22     *        *        *     要求等候逾時。
+ 23     *        *        *     要求等候逾時。
+ 24     *        *        *     要求等候逾時。
+ 25     *        *        *     要求等候逾時。
+ 26     *        *        *     要求等候逾時。
+ 27     *        *        *     要求等候逾時。
+ 28     *        *        *     要求等候逾時。
+ 29     *        *        *     要求等候逾時。
+ 30     *        *        *     要求等候逾時。
+
+追蹤完成。
+
+```
+![ICMP tracert](tracert.gif)
 ```
 ### TCP vs UDP 
 ```
@@ -185,6 +212,3 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
-# tracert
-
-![ICMP tracert](tracert.gif)
